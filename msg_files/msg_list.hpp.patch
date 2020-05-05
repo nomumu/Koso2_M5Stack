@@ -1,0 +1,12 @@
+--- /home/nomumu/Arduino/libraries/ros2arduino/src/ros2/msg_list.hpp	2020-05-05 09:09:03.391954000 +0900
++++ msg_list.hpp	2020-05-05 08:53:10.379627606 +0900
+@@ -54,4 +54,9 @@
+ 
+ #include "tf2_msgs/TFMessage.hpp"
+ 
++#include "m5stack_msgs/Plot.hpp"
++#include "m5stack_msgs/StampRequest.hpp"
++#include "m5stack_msgs/StampData.hpp"
++
++
+ #endif /* ROS2_MSG_LIST_HPP_ */
